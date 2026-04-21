@@ -2,7 +2,7 @@ import sys
 from flask import Flask, render_template, request, session
 from classes.person import Person
 from datafile import filename
-
+#teste
 app = Flask(__name__)
 
 Person.read(filename + 'Person.db')
